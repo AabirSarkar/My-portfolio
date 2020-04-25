@@ -1,0 +1,86 @@
+h1 {color:purple;
+padding-left: 30px;
+border-style : outset
+}
+body {
+    background-color: lightblue;
+  }
+
+
+
+
+.header{
+    background-color:rgb(233, 135, 23);
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+    border-style: solid;
+
+}
+.menu{
+    
+    display:flex;
+    justify-content: space-between;
+    border-style: dashed;
+    background-color:rgba(247, 84, 84, 0.918);
+
+}
+
+.grid{
+    border-style: dotted;
+    display:flex;
+    background-color:rgba(241, 195, 68, 0.918);
+
+    justify-content: space-evenly;
+}
+.icons img{
+    width: 85;
+    height: 100;
+    border-style: double;
+   
+}
+
+h3{
+    text-align: center;
+    border-style: groove;
+    background-color:rgba(32, 235, 126, 0.411);
+}
+p,h2{
+    text-align: center;
+    border-style: inset;
+    font-size: 18px;
+   
+}
+.item{
+    position: relative;
+
+}
+.item h3{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover h3{
+    opacity: 1;
+
+}
+.item:hover img{
+    opacity: 0.33;
+}
+.bio{
+    background-color:rgb(74, 238, 169);
+    display:flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    border-color: lawngreen;
+    border-style: double;
+}
+.images{
+    display:flex;
+    flex-wrap: wrap;
+    border-style: inherit;
+}
+
